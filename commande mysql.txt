@@ -1,0 +1,6 @@
+crée une vue :
+CREATE VIEW liste_joueur AS
+SELECT*FROM
+    joueur
+INNER JOIN images ON (idimage=image_idimage)
+INNER JOIN video ON (idvideo=video_idvideo);
