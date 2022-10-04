@@ -1,0 +1,201 @@
+/* CINEMA */
+
+.cinemanimation { /* logo */
+    animation-name : cinemanimation;
+    -webkit-animation-name : cinemanimation;
+    -moz-animation-name : cinemanimation;
+    -o-animation-name : cinemanimation;
+    animation-duration: 4s;
+    -webkit-animation-duration: 4s;
+    -moz-animation-duration: 4s;
+    -o-animation-duration: 4s;
+    animation-iteration-count: 1;
+    -webkit-animation-iteration-count: 1;
+    -moz-animation-iteration-count: 1;
+    -o-animation-iteration-count: 1;
+}
+
+@keyframes cinemanimation {
+    0% {margin-left: -100vw; opacity: 0%;}
+    10% {margin-left: -100vw;}
+    33% {margin-left: 80vw;}
+    66% {margin-left: 20vw;}
+    100% {margin-left: 30vw; opacity: 100%;}
+}
+
+.filmanimation { /* liste de film */
+    animation-name : filmanimation;
+    -webkit-animation-name : filmanimation;
+    -moz-animation-name : filmanimation;
+    -o-animation-name : filmanimation;
+    animation-duration: 6s;
+    -webkit-animation-duration: 6s;
+    -moz-animation-duration: 6s;
+    -o-animation-duration: 6s;
+    animation-iteration-count: 1;
+    -webkit-animation-duration: 6s;
+    -moz-animation-duration: 6s;
+    -o-animation-duration: 6s;
+}
+
+@keyframes filmanimation {
+    0% {opacity: 0%;}
+    20% {opacity: 0%;}
+    100% {opacity: 100%;}
+}
+
+
+/* JEUX */
+
+.jeuxanimation { /* logo jeux */
+    animation-name : jeuxanimation;
+    -webkit-animation-name : jeuxanimation;
+    -moz-animation-name : jeuxanimation;
+    -o-animation-name : jeuxanimation;
+    animation-duration: 3s;
+    -webkit-animation-duration: 3s;
+    -moz-animation-duration: 3s;
+    -o-animation-duration: 3s;
+    animation-iteration-count: 1;
+    -webkit-animation-iteration-count: 1;
+    -moz-animation-iteration-count: 1;
+    -o-animation-iteration-count: 1;
+}
+
+@keyframes jeuxanimation {
+    0% { transform: scale(0) rotate(0deg);
+        -webkit-transform: scale(0) rotate(0deg);
+        -moz-transform: scale(0) rotate(0deg);
+        -o-transform: scale(0) rotate(0deg);
+        -ms-transform: scale(0) rotate(0deg);
+        opacity: 0%;}
+    50% {transform: scale(2) rotate(360*0.9deg); /*pas réussie à enlever l'erreur au validator*/
+        -webkit-transform: scale(2) rotate(360*0.9deg);
+        -moz-transform: scale(2) rotate(360*0.9deg);
+        -o-transform: scale(2) rotate(360*0.9deg);
+        -ms-transform: scale(2) rotate(360*0.9deg);
+        opacity: 100%;}
+    100% {transform: scale(1) rotate(360deg);
+        -webkit-transform: scale(1) rotate(360deg);
+        -moz-transform: scale(1) rotate(360deg);
+        -o-transform: scale(1) rotate(360deg);
+        -ms-transform: scale(1) rotate(360deg);
+        opacity: 100%;}
+}
+
+.gameanimation { /* liste de jeux */
+    animation-name : gameanimation;
+    -webkit-animation-name : gameanimation;
+    -moz-animation-name : gameanimation;
+    -o-animation-name : gameanimation;
+    animation-duration: 6s;
+    -webkit-animation-duration: 6s;
+    -moz-animation-duration: 6s;
+    -o-animation-duration: 6s;
+    animation-iteration-count: 1;
+    -webkit-animation-iteration-count: 1;
+    -moz-animation-iteration-count: 1;
+    -o-animation-iteration-count: 1;
+}
+
+@keyframes gameanimation {
+    0% {opacity: 0%;}
+    20% {opacity: 0%;}
+    100% {opacity: 100%;}
+}
+
+
+/* FOOTBALL */
+
+.logofoot { /* position des image */
+    display: flex;
+    flex-direction: row;
+    -webkit-flex-direction: row;
+    -moz-flex-direction: row;
+    justify-content: center;
+    -webkit-justify-content: center;
+    -moz-justify-content: center;
+    margin-top: 5vw;
+    margin-bottom: 7vw; 
+}
+
+.footanimationFOTBALL { /* animation pour FO et TBALL */
+    animation-name : footanimationFOTBALL;
+    -webkit-animation-name : footanimationFOTBALL;
+    -moz-animation-name : footanimationFOTBALL;
+    -o-animation-name : footanimationFOTBALL;
+    animation-duration: 6s;
+    -webkit-animation-duration: 6s;
+    -moz-animation-duration: 6s;
+    -o-animation-duration: 6s;
+    animation-iteration-count: 1;
+    -webkit-animation-iteration-count: 1;
+    -moz-animation-iteration-count: 1;
+    -o-animation-iteration-count: 1;
+}
+
+@keyframes footanimationFOTBALL {
+    0% {opacity: 0%;}
+    80% {opacity: 0%;}
+    100% {opacity: 100%;}
+}
+
+.footanimationO { /* animation pour le ballon */
+    animation-name : footanimationO;
+    -webkit-animation-name : footanimationO;
+    -moz-animation-name : footanimationO;
+    -o-animation-name : footanimationO;
+    animation-duration: 6s;
+    -webkit-animation-duration: 6s;
+    -moz-animation-duration: 6s;
+    -o-animation-duration: 6s;
+    animation-iteration-count: 1;
+    -webkit-animation-iteration-count: 1;
+    -moz-animation-iteration-count: 1;
+    -o-animation-iteration-count: 1;
+}
+
+@keyframes footanimationO {
+    0% {transform: translate(-60vw) rotate(0deg);
+        -webkit-transform: translate(-60vw) rotate(0deg);
+        -moz-transform: translate(-60vw) rotate(0deg);
+        -o-transform: translate(-60vw) rotate(0deg);
+        -ms-transform: translate(-60vw) rotate(0deg);}
+    100% {transform: translate(0vw) rotate(360deg);
+        -webkit-transform: translate(0vw) rotate(360deg);
+        -moz-transform: translate(0vw) rotate(360deg);
+        -o-transform: translate(0vw) rotate(360deg);
+        -ms-transform: translate(0vw) rotate(360deg);}
+}
+
+.rotaballon { /* rotation de la balle au survole */
+    transition: 1s;
+}
+.rotaballon:hover {
+    transform: rotate(720deg);
+    -webkit-transform: rotate(720deg);
+    -moz-transform: rotate(720deg);
+    -o-transform: rotate(720deg);
+    -ms-transform: rotate(720deg);
+}
+
+.joueuranimation  { /* liste des joueurs */
+    animation-name : joueuranimation ;
+    -webkit-animation-name : joueuranimation ;
+    -moz-animation-name : joueuranimation ;
+    -o-animation-name : joueuranimation ;
+    animation-duration: 6s;
+    -webkit-animation-duration: 6s;
+    -moz-animation-duration: 6s;
+    -o-animation-duration: 6s;
+    animation-iteration-count: 1;
+    -webkit-animation-iteration-count: 1;
+    -moz-animation-iteration-count: 1;
+    -o-animation-iteration-count: 1;
+}
+
+@keyframes joueuranimation  {
+    0% {opacity: 0%;}
+    20% {opacity: 0%;}
+    100% {opacity: 100%;}
+}
